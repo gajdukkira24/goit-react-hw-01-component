@@ -1,0 +1,42 @@
+.profile {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .description {
+    padding: 20px;
+  }
+  
+  .avatar {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .name {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .tag,
+  .location {
+    color: gray;
+    font-size: 14px;
+    
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f3f3f3;
+    padding: 10px 0;
+    list-style: none;
+  }
+  
+  .stats li {
+    display: flex;
+    flex-direction: column;
+  }
